@@ -4,11 +4,35 @@ body {
   background-color: #f8f9fa;
 }
 
-/* Navbar styling */
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
+/* Navbar Styling */
+.navbar {
+  font-size: 16px;
 }
+
+/* Fixed Navbar Styling */
+.navbar {
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+/* Form Styling */
+.form-control {
+  width: 180px;
+}
+
+.btn-outline-success {
+  color: white;
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+
 
 /* Hero Section Carousel */
 .carousel-inner img {
@@ -163,7 +187,6 @@ footer ul li {
     text-align: center;
   }
 }
-
 
 
 
