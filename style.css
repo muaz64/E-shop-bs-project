@@ -114,14 +114,54 @@ img:hover {
 }
 
 
-/* Footer */
-footer h5 {
-  font-size: 1.2rem;
-  font-weight: bold;
+/* Footer Styles */
+footer p {
+  color: #ffc107;
 }
 
-footer p, footer ul {
-  font-size: 0.9rem;
+footer hr {
+  border-color: #dc3545;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #dc3545;
+}
+
+footer .social-icon {
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer .social-icon:hover {
+  color: #dc3545;
+}
+
+footer .footer-links {
+  margin-bottom: 20px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  footer .row {
+    text-align: center;
+  }
 }
 
 
